@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>India Topics</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 0 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  h1 {
+    text-align: center;
+    color: #004080;
+    margin-bottom: 40px;
+  }
+  h2 {
+    cursor: pointer;
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 6px;
+    margin-top: 30px;
+  }
+  .content {
+    display: none;
+    margin-top: 15px;
+    line-height: 1.6;
+  }
+</style>
+<script>
+  function toggleContent(id) {
+    const el = document.getElementById(id);
+    if (el.style.display === 'block') {
+      el.style.display = 'none';
+    } else {
+      el.style.display = 'block';
+    }
+  }
+</script>
+</head>
+<body>
+
+<h1>Explore India - Topics</h1>
+
+<h2 onclick="toggleContent('capital')">1. Capital City</h2>
+<div id="capital" class="content">
+  <p>
+    New Delhi is the capital city of India, located in the northern part of the country within the National Capital Territory of Delhi. It is the political and administrative center where the Parliament, Supreme Court, and Presidential residence are situated. New Delhi is known for its blend of modernity and rich history, famous for landmarks like India Gate, Rashtrapati Bhavan, and Qutub Minar. The city also serves as an important hub for culture, diplomacy, and commerce.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('geography')">2. Geography</h2>
+<div id="geography" class="content">
+  <p>
+    India is the seventh-largest country globally with diverse geographical features that include the Himalayan mountain range, fertile plains of the Ganges, arid Thar Desert, tropical rainforests, and extensive coastlines bordering the Indian Ocean. Its geography influences the climate, lifestyle, and natural resources available in different regions, supporting a wide range of biodiversity and agriculture.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('history')">3. History</h2>
+<div id="history" class="content">
+  <p>
+    India’s history dates back to ancient civilizations like the Indus Valley Civilization. It was home to powerful dynasties such as the Maurya and Gupta empires and saw the flourishing of arts, philosophy, and science. Later, it underwent Mughal rule and British colonialism before gaining independence in 1947. The struggle for freedom was marked by nonviolent resistance led by figures like Mahatma Gandhi.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('culture')">4. Culture</h2>
+<div id="culture" class="content">
+  <p>
+    India’s culture is famously diverse, encompassing numerous religions, languages, festivals, dress styles, music, and dance forms. From Diwali and Holi festivals to classical dances like Bharatanatyam and Kathak, Indian culture is rich and varied, reflecting centuries of tradition and regional distinctiveness.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('economy')">5. Economy</h2>
+<div id="economy" class="content">
+  <p>
+    India has one of the fastest-growing economies worldwide, with key sectors including agriculture, manufacturing, and services, especially IT and software services. Economic reforms since the 1990s have opened markets and encouraged foreign investment. Challenges remain, such as poverty and infrastructure development, but initiatives like 'Make in India' aim to foster growth.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('cuisine')">6. Cuisine</h2>
+<div id="cuisine" class="content">
+  <p>
+    Indian cuisine is known for its variety, spices, and flavors. Northern regions often feature wheat-based breads and rich gravies, while southern India is famous for rice dishes and coconut-infused flavors. Vegetarian meals are common, reflecting religious and cultural preferences. Popular dishes include biryani, dosa, butter chicken, and samosas.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('festivals')">7. Festivals</h2>
+<div id="festivals" class="content">
+  <p>
+    Festivals are celebrated with great enthusiasm and vary by religion and region. Major festivals include Diwali, the festival of lights; Holi, the festival of colors; Eid; Christmas; and regional celebrations such as Onam and Pongal. Festivals feature religious rituals, feasts, music, and dancing, fostering community bonding.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('wildlife')">8. Wildlife & Biodiversity</h2>
+<div id="wildlife" class="content">
+  <p>
+    India is a megadiverse country, home to species such as Bengal tigers, Asian elephants, and Indian rhinoceroses. Protected areas like national parks and wildlife sanctuaries help conserve endangered species. India's diverse ecosystems range from Himalayan forests to coastal mangroves and desert habitats.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('languages')">9. Languages</h2>
+<div id="languages" class="content">
+  <p>
+    India recognizes 22 official languages, including Hindi, Bengali, Telugu, Marathi, Tamil, and Urdu. English serves as an associate official language widely used in education and administration. The linguistic diversity influences literature, music, films, and education systems across the country.
+  </p>
+</div>
+
+<h2 onclick="toggleContent('education')">10. Education</h2>
+<div id="education" class="content">
+  <p>
+    India has a vast education system with millions enrolled in schools and universities. The government emphasizes universal primary education and promotes higher education through institutes of national importance like the IITs and medical colleges. Digital education and skill development programs aim to bridge gaps and prepare youth for future challenges.
+  </p>
+</div>
+
+</body>
+  </html>
+  
